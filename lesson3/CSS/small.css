@@ -17,19 +17,19 @@
   
     .toggleNav {
       display: block;
-      color: #8b8b8b;
+      color: #6d6875;
     }
   
     .toggleNav:hover,
     .toggleNav:focus {
-      color: #222;
+      color:#ffcdb2;
       text-decoration: none;
     }
   
     .flex-nav {
-      background-color: #8e9aaf;
+      background-color: #ffcdb2;
       border-radius: 10px;
-      border-bottom: 1px solid #cdb4db;
+      border-bottom: 1px solid #b5838d;
     }
   
     .flex-nav ul {
