@@ -27,9 +27,9 @@
     }
   
     .flex-nav {
-      background-color: darkblue;
+      background-color: #ef476f;
       border-radius: 10px;
-      border-bottom: 1px solid #e2e2e2;
+      border-bottom: 1px solid #cdb4db;
     }
   
     .flex-nav ul {
@@ -89,15 +89,15 @@
       margin: .5rem;
       border-radius: 10px;
       text-align: center;
-      background-color: blue;
+      background-color: #cdb4db;
       /* background-color: rgb(113, 106, 114); */
-      color: whitesmoke;
+      color: #cdb4db;
       padding: .5em;
     }
   
     /* Change the link color to #111 (black) on hover */
     li a:hover {
-      background-color: blue;
+      background-color: #a2d2ff;
     }
   
     main {
