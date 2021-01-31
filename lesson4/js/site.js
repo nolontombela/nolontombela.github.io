@@ -9,8 +9,7 @@ function GetFileInfo() {
     var day_names = ["Sunday", "Monday", "Tuesday", "Wednesday",
         "Thursday", "Friday", "Saturday"
     ];
-    // idea inspired from a stackoverflow article:
-    // https://stackoverflow.com/questions/19583312/display-day-of-the-week-with-javascript-date
+   
     let myDate = new Date();
     let current_date = myDate.getDate();
     let current_month = myDate.getMonth();
