@@ -291,6 +291,36 @@
       margin-inline-start: 40px;
       margin-inline-end: 40px; */
     }
-  
+    .footer-town-map {
+        flex: 0;
+        margin: 1em 0;
+        display: none;
+      }
+    
+      .footer-map {
+        width: 100%;
+      }
+    
+      section {
+        margin: 4px;
+        border-color: black;
+        background-color: rgb(223, 223, 236);
+        text-align: left;
+      }
+    
+      figure {
+        display: block;
+        /* margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px; */
+      }
+    
+      /*-----------RESPONSIVE--------------*/
+      .big {
+        display: none;
+      }
+    
+    }
   
   }
