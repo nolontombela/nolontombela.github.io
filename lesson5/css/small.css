@@ -103,8 +103,31 @@
       flex-direction: column;
       ;
       background-color: #82a3a1;
+
     }
   
+    #banner {
+        display: block;
+        background-color: #82a3a1;
+        color: black;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .cloudbanner {
+        position: relative;
+        left: 2.5rem;
+        /* margin: 10px auto; */
+      }
+
+      .weather-summary {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background: radial-gradient(#82a3a1, #465362);
+      }
+
     header h1 {
       font-size: 65px;
       font-family: 'Tangerine', serif, cursive, Arial, Helvetica;
@@ -238,6 +261,22 @@
       color: whitesmoke;
     }
   
+
+    .footer-socialmedia {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 1em 0;
+      }
+    
+      .footer-socialmedia a {
+        display: grid;
+      }
+    
+      .logo-social {
+        justify-self: center;
+        margin: auto;
+        max-width: 60px;
+      }
     section {
       margin: 4px;
       border-color: black;
