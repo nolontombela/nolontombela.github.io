@@ -1,5 +1,5 @@
 .title {
-  font-family: Fantasy;
+  font-family: 'Akaya Telivigala', cursive;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -80,7 +80,7 @@ header img {
 }
 
 .byline {
-    font-family: Fantasy;
+    font-family:'Akaya Telivigala', cursive;
     letter-spacing: 1pt;
     margin-left: 20px;
     font-size: 1rem;
@@ -91,7 +91,7 @@ header img {
 .wGallery {
 	text-align: center;
 	font-size: 2em;
-	font-family: fantasy, Bold;
+	font-family: 'Akaya Telivigala', cursive;
 }
 
 h2 {text-align: center;
@@ -101,7 +101,7 @@ h2 {text-align: center;
 
 /* lazy load css */
 .imagegallery {
-    font-family: fantasy;
+    font-family: 'Akaya Telivigala', cursive;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-items: center;
