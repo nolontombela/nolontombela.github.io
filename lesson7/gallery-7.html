@@ -2,168 +2,128 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="description" content="WDD 230 Weather Site">
-    <title>Fantastic Forecast </title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine:300,700&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charmonman">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+  <div class= "title"
+     Fantastic Forecast </div>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script src="js/site.js"></script>
+   
 </head>
-
-<body onload="GetFileInfo()">
-    <div class="container">
-        <div id="banner">Saturday = Preston Pancakes in the Park! <br>
-            9:00 a.m. Saturday at the city park pavilion.</div>
+   <body>     
         <header>
-            <div class="logoheading">
-                <img class="sitelogo" src="https://imgur.com/RjpZcWf.jpg" alt="Sunrise logo">
+           <picture>
+             <img src="https://imgur.com/hvmd0cI.png" alt="Sunrise logo"/> </picture>
                
                 <section class="headingtext">
                     <h1>Fantastic Forecast </h1><br>
                     <div class="byline">
                         <h2>Fantastic Weather. Everytime</h2>
-                    </div>
+                    
                 </section>
-            </div>
-
         </header>
+          
         <nav>
-            <ul class="flex-nav">
-                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="#">Home</a></li>
-                <li class="active"><a href="./preston-4.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a href="#">Gallery</a></li>
-            </ul>
+            <ul class="navigation">
+                <li><a href="#" class="ham">☰ Menu</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">Preston</a></li>
+        <li><a href="">Soda Springs</a></li>
+        <li><a href="">Fish Haven</a></li>
+        <li><a href="">Storm Center</a></li>
+        <li class="active"><a href="">Gallery</a></li>
+      </ul> 
         </nav>
         <main>
-            <h2>Weather Gallery</h2>
+            <h2 class= "wGallery"> Weather Gallery</h2>
             <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=120" />
-                        alt="Image showing starry night">
+                        
                     <figcaption>Starry Night</figcaption>
                 </figure>
                 
             </div>
-            <div class="gallerypic">
+            <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=1057" />
-                        alt="Image showing Ocean View">
+                        
                     <figcaption>Ocean View</figcaption>
                 </figure>
 
             </div>
-            <div class="gallerypic">
+            <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=1044" />
-                        alt="Image showing Misty River">
+                        
                     <figcaption>Misty River</figcaption>
                 </figure>
 
             </div>
-            <div class="gallerypic">
+            <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=1043" />
-                        alt="Image showing river">
+                        
                     <figcaption>River</figcaption>
                 </figure>
 
             </div>
-            <div class="gallerypic">
+            <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=1039" />
-                        alt="Image showing waterfall in forest">
+                       
                     <figcaption>Waterfall Forest</figcaption>
                 </figure>
             </div>
-            <div class="gallerypic">
+            <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=1037" />
-                        alt="Sunrise">
+                        
                     <figcaption>Sunrise in the Mountains</figcaption>
                 </figure>
             </div>
-            <div class="gallerypic">
+            <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=1019" />
-                        alt="Image showing a storm ahead">
+                        
                     <figcaption>Storms ahead</figcaption>
                 </figure>
             </div>
-            <div class="gallerypic">
+            <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=1016" />
-                        alt="Image showing mountain range sunset">
+                       
                     <figcaption>Mountain Sunset</figcaption>
                 </figure>
             </div>
-            <div class="gallerypic">
+            <div class="imagegallery">
                 <figure>
                     <img src="https://unsplash.it/600/400?image=1015" />
-                        alt="Image showing mountain range and sky">
+                        
                     <figcaption>Mountain range with clear skies</figcaption>
                 </figure>
             </div>
-        </div>
         </main>
+          
         <footer>
-            <div class="footer-town">
+  <p>
+        &copy; <span id="currYear"></span> | Bonolo Ntombela |
+        <a href="" target="_blank">Attributes</a> <br /><span
+          id="lastUpdated"
+          class="lastUpdated"
+        ></span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/lazyloadscript.js"></script>
 
-                <div class="footer-contacts">
-                    <div class="footer-address">
-                        <p class="contact-address-title">Fantastic Forecast</p>
-                        <p class="contact-address">30 N 1st E</p>
-                        <p class="contact-address">Preston, ID 83263</p>
-                    </div>
-
-                    <div class="footer-comms">
-                        <p class="communication-phonenumber"><span class="entity-contact">&#9742;</span>&#160;
-                            000-000-1234</p>
-                        <p class="communication-mail"><span class="entity-contact"> &#9993; </span>fantastic@forecast.com
-                        </p>
-                    </div>
-
-
-            <div class="footer-socialmedia">
-                <a class="link-socialmedia" href="https://www.facebook.com">
-                    <img class="logo-social" src="https://imgur.com/F9ZZfTO.png"
-                        alt="Facebook social media link and logo."></a>
-                <a class="link-socialmedia" href="https://www.pinterest.com">
-                    <img class="logo-social" src="https://imgur.com/DKIivQy.png"
-                        alt="Pinterest social media link and logo."></a>
-                <a class="link-socialmedia" href="https://twitter.com">
-                    <img class="logo-social" src="https://imgur.com/YOyPLdP.png"
-                        alt="Twitter social media link and logo."></a>
-                <a class="link-socialmedia" href="https://www.whatsapp.com">
-                    <img class="logo-social" src="https://imgur.com/EhulI32.png"
-                        alt="WhatsApp social media link and logo."></a>
-            </div>
-
-            <div class="footer-town-map">
-                <img class="footer-map" src="https://imgur.com/5hba1zN.png" alt="Map of Preston">
-            </div>
-
-
-            <div id="footerInfo">
-                <p>&copy; Fantastic Forecast <span id="year"></span> | Bonolo Ntombela </p>
-            </div>
-            <script>
-                displayBanner()
-            </script>
-            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-            <script src="js/webfontload.js"></script>
-            <script src="js/lazyload.js" defer></script>
-        </body>
-        
-        </html>
+  </body>
+</html>          
