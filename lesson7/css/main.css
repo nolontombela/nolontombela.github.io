@@ -51,10 +51,10 @@ footer {
 }
 
 .title {
-  font-family: fantasy;
+  font-family:'Akaya Telivigala', cursive;
 }
 .font2 {
-  font-family: fantasy;
+  font-family:'Akaya Telivigala', cursive;
 }
 header {
   /* background-color:#74c69d; */
@@ -77,7 +77,7 @@ header img {
 }
 
 .slogan {
-	font-family: fantasy;
+	font-family: 'Akaya Telivigala', cursive;
 	letter-spacing: 1pt;
 	margin-left: 20px;
 	font-size: 1rem;
@@ -120,8 +120,4 @@ header img {
 }  
 
     
-  /* Desktop Views ****************************/
-  @media only screen and (min-width: 60em) {
-    nav a {
-      font-size: 1.1rem;
-    }
+  
