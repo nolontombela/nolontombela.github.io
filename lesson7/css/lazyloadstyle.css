@@ -1,7 +1,7 @@
 main {
     background-image: linear-gradient(45deg,rgb(166, 206, 183),white);
     background-attachment: fixed;
-    font-family: fantasy;
+    font-family:'Akaya Telivigala', cursive;;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 80px;
